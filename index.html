@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FIM GOOGLE FONTS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <script src="./script.js" defer></script>
+
+    <title>Giulia Costa - Portfólio</title>
+  </head>
+  <body>
+    <!-- cabecalho -->
+    <header>
+      <div class="interface">
+        <!-- menu desktop -->
+        <div class="menu-nome">
+          <a href="#inicio">
+            <strong class="primeiro-nome">Giulia</strong
+            ><span class="sobrenome">Costa</span>
+          </a>
+        </div>
+
+        <nav class="menu-desktop">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#especialidades">Especialidades</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+          </ul>
+        </nav>
+
+        <div class="btn-contato">
+          <a href="#contato">
+            <button>Contato</button>
+          </a>
+        </div>
+
+        <!--menu-mobile-->
+        <div class="btn-abrir-menu" id="btn-menu">
+          <img src="assets/list.svg" alt="Ícone de lista" />
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+          <div class="btn-fechar">
+            <img src="assets/close.svg" alt="Ícone de fechar" />
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#especialidades">Especialidades</a></li>
+              <li><a href="#sobre">Sobre mim</a></li>
+              <li><a href="#portfolio">Portfólio</a></li>
+              <li><a href="#contato">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+      </div>
+    </header>
+
+    <!-- corpo principal -->
+    <main>
+      <!-- section do inicio -->
+      <section id="inicio" class="topo-do-site">
+        <div class="interface">
+          <div class="flex">
+            <div class="txt-topo-site">
+              <h1>
+                Explorando o código-fonte do futuro, uma linha de código de cada
+                vez<span>.</span>
+              </h1>
+              <p>
+                Fundindo inovação e criatividade em cada projeto, estou
+                preparada para dar vida à sua visão digital com design
+                impactante, funcionalidade intuitiva e foco nos resultados.
+              </p>
+
+              <div class="btn-contato">
+                <a href="#contato">
+                  <button>Entre em contato</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="img-topo-site">
+              <img
+                src="assets/minha-foto.jpg"
+                style="width: 300px; border-radius: 50px"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section das especialidades -->
+      <section id="especialidades" class="especiliadades">
+        <div class="interface">
+          <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+          <div class="flex">
+            <div class="especialidades-box">
+              <h3>Formação</h3>
+              <p>
+                Minha dedicação à tecnologia me levou a cursar Análise e
+                Desenvolvimento de Sistemas na UNINTER, onde estou focada em
+                aprimorar minhas habilidades em programação, engenharia de
+                software e gerenciamento de banco de dados. Além da formação
+                acadêmica, tenho ampliado meu conhecimento por meio de diversos
+                cursos de desenvolvimento web, dominando linguagens como HTML,
+                CSS e JavaScript, bem como frameworks populares como React.
+                Também possuo inglês avançado.
+              </p>
+            </div>
+
+            <div class="especialidades-box">
+              <h3>Hard skills</h3>
+              <p>
+                Como desenvolvedora web, ofereço um amplo conjunto de hard
+                skills que impulsionam minha capacidade de criar soluções
+                inovadoras e eficazes online. Minha experiência abrange
+                linguagens essenciais, como HTML, CSS e JavaScript, formando a
+                base de meus projetos. Trabalho com frameworks renomados,
+                incluindo React, Angular e Vue.js, para desenvolver interfaces
+                de usuário dinâmicas e interativas. Além disso, domino
+                linguagens back-end como Python, Node.js e PHP.
+              </p>
+            </div>
+
+            <div class="especialidades-box">
+              <h3>Soft skills</h3>
+              <p>
+                Com um forte conjunto de soft skills, estou preparada para
+                enfrentar desafios em TI com empatia, comunicação clara e
+                pensamento crítico. Minha capacidade de trabalho em equipe e
+                adaptação a ambientes em constante evolução me permite colaborar
+                eficazmente em projetos de TI multidisciplinares, enquanto o
+                gerenciamento de tempo e a resolução de conflitos garantem a
+                eficiência e harmonia no local de trabalho.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section do sobre mim -->
+      <section id="sobre" class="sobre">
+        <div class="interface">
+          <div class="flex">
+            <div class="img-sobre">
+              <img
+                src="assets/minha-foto-2.jpg"
+                alt="Foto de Giulia Costa"
+                style="width: 300px; border-radius: 50px"
+              />
+            </div>
+
+            <div class="txt-sobre">
+              <h2>MUITO PRAZER, <span>SOU GIULIA COSTA.</span></h2>
+              <p>
+                Tenho 23 anos e como uma entusiasta da área de tecnologia, estou
+                constantemente em busca de oportunidades para aprender e crescer
+                como profissional. Atualmente, estou focada em Desenvolvimento
+                Web e estou comprometida em me tornar uma especialista nesse
+                campo em constante evolução.
+              </p>
+              <p>
+                Minha jornada na tecnologia começou desde cedo, pois sempre fui
+                interessada por tecnologia, que me levou a buscar conhecimento
+                sobre programação já na adolescência. Desde então, tenho
+                mergulhado de cabeça em projetos desafiadores e oportunidades de
+                aprendizado. A cada desafio, vejo a oportunidade de aprimorar
+                minhas habilidades e encontrar soluções criativas para problemas
+                complexos.
+              </p>
+              <p>
+                Minha paixão pela tecnologia e meu comprometimento com o
+                desenvolvimento web me impulsionam a abraçar cada desafio como
+                uma oportunidade de crescimento. Acredito que a tecnologia é a
+                força motriz por trás da inovação e do progresso, e estou
+                determinada a me tornar uma especialista nesse campo em
+                constante evolução, contribuindo para a construção de um futuro
+                digital ainda mais promissor.
+              </p>
+              <div class="btn-social">
+                <a href="https://www.instagram.com/cstgiulia"
+                  ><button class="btn-contato-sm">
+                    <img
+                      src="assets/instagram.svg"
+                      alt="Ícone do Instagram"
+                    /></button
+                ></a>
+                <a
+                  href="https://www.linkedin.com/in/giulia-costa-2b5400297?trk=contact-info"
+                  ><button class="btn-contato-sm">
+                    <img
+                      src="assets/linkedin.svg"
+                      alt="Ícone do linkedin"
+                    /></button
+                ></a>
+                <a href="https://github.com/GiuliapCosta"
+                  ><button class="btn-contato-sm">
+                    <img
+                      src="assets/github.svg"
+                      alt="Ícone do github"
+                    /></button
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section do portfolio -->
+      <section id="portfolio" class="portfolio">
+        <div class="interface">
+          <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+          <div class="flex">
+            <!-- projetos de exemplo -->
+            <div
+              class="img-port"
+              style="background-image: url(assets/exemplo-projeto.jpg)"
+            >
+              <div class="overlay">Projeto 1</div>
+            </div>
+            <div
+              class="img-port"
+              style="background-image: url(assets/exemplo-projeto.jpg)"
+            >
+              <div class="overlay">Projeto 2</div>
+            </div>
+            <div
+              class="img-port"
+              style="background-image: url(assets/exemplo-projeto.jpg)"
+            >
+              <div class="overlay">Projeto 3</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- section do formulario -->
+      <section id="contato" class="formulario">
+        <div class="interface">
+          <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+          <form onsubmit="mostrarAlert()">
+            <input type="text" name="nome" id="nome" placeholder="Seu nome:" required />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail:"
+              required
+            />
+            <textarea
+              name="mensagem"
+              id="mensagem"
+              placeholder="Sua mensagem:"
+              required
+            ></textarea>
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- rodape -->
+    <footer>
+      <div class="interface">
+        <div class="line-footer">
+          <div class="flex">
+            <p class="email">
+              <img src="assets/envelope.svg" alt="Ícone de envelope" />
+              <a href="mailto:giulia.costa99@gmail.com"
+                >giulia.costa99@gmail.com</a
+              >
+            </p>
+            <div class="btn-social">
+              <a href="https://www.instagram.com/cstgiulia"
+                ><button class="btn-contato-sm">
+                  <img
+                    src="assets/instagram.svg"
+                    alt="Ícone do Instagram"
+                  /></button
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/giulia-costa-2b5400297?trk=contact-info"
+                ><button class="btn-contato-sm">
+                  <img
+                    src="assets/linkedin.svg"
+                    alt="Ícone do linkedin"
+                  /></button
+              ></a>
+              <a href="https://github.com/GiuliapCosta"
+                ><button class="btn-contato-sm">
+                  <img src="assets/github.svg" alt="Ícone do github" /></button
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-footer borda"></div>
+      </div>
+    </footer>
+  </body>
+</html>
